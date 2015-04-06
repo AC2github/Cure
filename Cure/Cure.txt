@@ -1,0 +1,6 @@
+"Gamemode"
+{
+	"base"		"base"
+	"title"		"Cure"
+	"menusystem"	"1"
+}

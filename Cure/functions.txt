@@ -1,0 +1,29 @@
+-- Player
+Cure.Player.FindPlayer(input)
+Cure.Player.GetAlivePlayers()
+Cure.Player.GetPrevPlayer(player)
+Cure.Player.GetNextPlayer(player)
+
+-- Teams
+Cure.Team.HasWon(teamid)
+Cure.Team.PreventSuicide(teamid)
+Cure.Team.SetTeamCollisionEnabled(bool)
+Cure.Team.SetSpeed(teamid)
+Cure.Team.GiveWeapons(teamid, ... )
+
+-- Rounds
+Cure.Rounds.SetRoundTime(roundtime)
+Cure.Rounds.SetRoundPhase(ROUND_WAITING)
+Cure.Rounds.GetRoundPhase()
+Cure.Rounds.GetRoundTime()
+Cure.Rounds.GetTotalRounds()
+
+-- Errors
+Cure.Error.Print(str)
+Cure.Error.Log(str)
+
+-- AFK
+Cure.Afk.ToggleAfk(player)
+
+-- Maps
+Cure.MapVote.FindMaps str)
